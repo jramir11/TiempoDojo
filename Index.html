@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo Dojo</title>
+    <link rel="stylesheet" href="TiempoDojo.css">
+</head>
+<body>
+    <main>
+        <!--encabezado -->
+        <main>
+            <div class="encabezado">
+                <div>
+                    <h1 class="encab-title">DojoWeather</h1>
+                </div>
+                <section class="card2">
+                    <div class="card">
+                        <p id="name-tag" onclick="setName(this)">Burbank</p>
+                    </div>
+                    <div class="card">
+                        <p id="name-tag" onclick="setName(this)">Chicago</p>
+                    </div>
+                    <div class="card">
+                        <p id="name-tag" onclick="setName(this)">Dallas</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <main class="cuadroSanJose">
+            <section>
+                <h3>San Jose</h3>
+            </section>
+            <section class="cuadroSanJose">
+                <label>show temperature in </label>
+                <select name="selGrados" id="selGrados" onchange="CambiaGrados(this)">
+                    <option>Celcius</option>
+                    <option>Fahrenheit</option>
+                </select>
+            
+            </section>
+        </main> <!-- fin cuadroSanJose -->
+
+        <main class="cuadros">
+            <section class="clima">
+                <header>
+                    <h4>Today</h4>
+                    <img class="circular--square" src="assets\some_rain.png" />
+                    <p class="Alinear-p">some rain</p>
+                    <p class="p-grados">
+                        <span id="temp1" style="color:red;font-weight:bold">24°</span>
+                        <span id="temp2"style="color:dodgerblue;font-weight:bold">18°</span>
+                    </p>
+
+                </header>
+            </section>
+
+            <section class="clima">
+                <header>
+                    <h4>Tomorrow</h4>
+                    <img class="circular--square" src="assets\some_sun.png" />
+                    <p class="Alinear-p">some sun</p>
+                    <p class="p-grados">
+                        <span id="temp3" style="color:red;font-weight:bold">27°</span>
+                        <span id="temp4" style="color:dodgerblue;font-weight:bold">19°</span>
+                    </p>
+                </header>
+            </section>
+
+            <section class="clima">
+                <header>
+                    <h4>Friday</h4>
+                    <img class="circular--square" src="assets\some_clouds.png" />
+                    <p class="Alinear-p">some cluds</p>
+                    <p class="p-grados">
+                        <span id="temp5" style="color:red;font-weight:bold">21°</span>
+                        <span id="temp6" style="color:dodgerblue;font-weight:bold">16°</span>
+                    </p>
+                </header>
+            </section>
+
+            <section class="clima">
+                <header>
+                    <h4>Saturday</h4>
+                    <img class="circular--square" src="assets\some_sun.png" />
+                    <p class="Alinear-p">some sun</p>
+                    <p class="p-grados">
+                        <span id="temp7" style="color:red;font-weight:bold">26°</span>
+                        <span id="temp8" style="color:dodgerblue;font-weight:bold">21°</span>
+                    </p>
+                </header>
+            </section>
+        </main>
+
+        <main>
+            <section class="CuadroIAccept" id="CuadroIAccept">
+                <img class="imgCookie" src="assets\cookie.png" />
+                <section>
+                    <h3>Stop! Cookie Time</h3>
+                    <p>We use coockies (sadly not the edible ones) to personalize</p>
+                    <p>content and ads, to provide social media features and to</p>
+                    <p>analyse our traffic. <a href="#">Read more</a></p>
+                </section>
+                <section class="btnAcc">
+                    <button onclick="btnIAccept(this)" class="btnIAccept" >I Accept</button>
+                </section>
+            </section>
+        </main>
+    </main>
+
+    <!--codigo JS para botones-->
+    <script src="TiempoDojo.js"></script>
+</body>
+</html>

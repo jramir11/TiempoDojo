@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px solid red;*/
+    /*display: flex;*/
+    font-family: cursive;
+    
+}
+
+
+
+/*Encabezado*/
+.encabezado {
+    background-color:lightskyblue;
+    margin: 5px;
+    /*border-radius: solid 2px;*/
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    align-items: center;
+    color: white;
+    /*width: 565px;*/
+    
+}
+.encab-title {
+    /*margin: 10px 10px 10px 10ox;*/
+    font-size: 30px;
+    justify-content: spa;
+    color: white;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+.card2 {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+
+/*cuadro global de la izquierda*/
+.cuadros {
+    display: flex;
+    margin: 30px;
+    padding: 10px 15px 20px 30px;
+    /*justify-content: space-between;*/
+}
+/*.cuadroIzq {
+    padding: 10px 15px 20px 10px;
+    display: flex;
+        
+}*/
+.clima {
+    background-color: lightgray;
+    /*align-content: center;*/
+    margin-right: 10px;
+}
+h4 {
+    /*align-content: center;*/
+    /*margin-right: 50px;*/
+    padding-left:100px;
+}
+.Alinear-p {
+    padding-left:100px;
+}
+
+
+.recuadroIzq11, .recuadroIzq12 {
+    border: 2px solid black;
+    display: flex;
+    padding: 0px 0px 20px 10px;
+}
+.btn13likesIzq11, .btn37likesIzq12 {
+    margin: 5px;
+    background-color: yellow;
+    color: black;
+    font-family: roboto;
+    width: 73px;
+    box-shadow: 5px 5px black;
+}
+.recuadroIzq11 {
+    margin-bottom: 10px;
+}
+.recuadro11izq-p1 {
+    font-size: 25px;
+}
+.recuadro11izq-p2 {
+    font-size: 15px;
+}
+.recuadro11izq-p3 {
+    font-size: 10px;
+}
+.recuadroIzq11-p {
+    padding: 20px 0px 0px 20px;
+}
+
+
+
+
+strong { 
+    font-weight: bold;
+}
+.cuadroSanJose {
+    display: flex;
+    justify-content: space-evenly;
+}
+.circular--square {
+    border-radius: 50%;
+    width: 200px;
+    padding: 0px 30px;
+  }
+  .p-grados {
+    justify-content: space-between;
+    padding: 0px 100px;
+  }
+  .CuadroIAccept {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    padding: 10px 0px 10px 20px;
+    margin-left: 60px;
+    margin-right: 10px;
+    background-color: lightgrey;
+    position: fixed;
+    width: 1055px;
+}
+.btnAcc {
+    padding: 30px;
+}
+.btnIAccept {
+    background-color: lightblue;
+    box-shadow: 5px 5px black;
+}
